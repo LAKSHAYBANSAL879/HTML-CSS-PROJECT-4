@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url(bg.png);
+    /* background-size: 100%; */
+    /* background-position: ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+header{
+    width: 100vw;
+    height: 18vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin-top: 1vh; */
+    /* margin-left: 1vw; */
+    background-color: rgb(22, 21, 21) ;
+}
+.logo img{
+    width: 15vw;
+    height: 10vh;
+    margin-left: 2vw;
+    margin-right: 4vw;
+    display: flex;
+    align-items: center;
+}
+.list ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    gap: 3vw;
+}
+.list ul li a{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Alkatra', cursive;
+    flex-direction: row;
+}
+.list a:hover{
+    cursor: pointer;
+    /* background-color: white; */
+    color: rgba(62, 188, 242, 0.921);
+}
+.btn button{
+    display: flex;
+align-items: center;
+background-color: rgb(176, 96, 252);
+margin-left: 25vw;
+padding: 10px;
+border-radius: 25px;
+font-size: 22px;
+font-weight: bold;
+
+
+}
+button:hover{
+    cursor: pointer;
+    color: rgb(176, 96, 252);
+    background-color:white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Delicious+Handrawn&display=swap');
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 8vh;
+    gap: 3vh;
+}
+.heading h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    line-height: 15vh;
+    color: white;
+    font-family: 'Alkatra', cursive;
+    font-weight: bold;
+}
+.heading h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    margin-top: 2vh;
+    font-family: 'Alkatra', cursive;
+    font-weight: bold;
+}
+.ibtn button{
+    display: flex;
+align-items: center;
+background-color: rgb(176, 96, 252);
+/* margin-left: 15vw; */
+padding: 10px;
+border-radius: 25px;
+font-size: 22px;
+font-weight: bold;
+justify-content: center;
+}
+.ibtn button:hover{
+    color: white;
+}
